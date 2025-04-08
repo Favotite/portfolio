@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Favour's Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+        body {
+            background-color: #0d1117;
+            color: #c9d1d9;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background: #161b22;
+        }
+        nav a {
+            color: #58a6ff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 18px;
+            font-weight: bold;
+        }
+        .hero {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 80vh;
+            padding: 20px;
+        }
+        .hero img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            border: 3px solid #58a6ff;
+            margin-bottom: 15px;
+        }
+        .hero h1 {
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
+        .hero p {
+            font-size: 18px;
+            max-width: 600px;
+        }
+        .cta {
+            margin-top: 20px;
+        }
+        .cta a {
+            display: inline-block;
+            background: #58a6ff;
+            color: #0d1117;
+            padding: 10px 20px;
+            font-size: 18px;
+            font-weight: bold;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: 0.3s;
+        }
+        .cta a:hover {
+            background: #1f6feb;
+        }
+        section {
+            padding: 50px 20px;
+        }
+        #portfolio {
+            background-color: #161b22;
+        }
+        #contact {
+            background-color: #1f242b;
+        }
+        .project-card {
+            background: #23272e;
+            margin: 15px;
+            padding: 20px;
+            border-radius: 5px;
+        }
+        .project-card h3 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+        .project-card p {
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+        .project-card a {
+            color: #58a6ff;
+            text-decoration: none;
+        }
+        .form-input, .form-textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            background: #2d333b;
+            border: 1px solid #58a6ff;
+            color: #c9d1d9;
+            font-size: 16px;
+            border-radius: 5px;
+        }
+        .form-input {
+            height: 40px;
+        }
+        .form-textarea {
+            height: 100px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="#">Developer Favour</a>
+        <div>
+            <a href="#about">About</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
+
+    <div class="hero">
+        <img src="IMG-20250214-WA0174.jpg" alt="Favour's Picture">
+        <h1>Hi, I'm Favour</h1>
+        <p>A creative Front-End Developer passionate about building stunning, responsive, and user-friendly web applications.</p>
+        <div class="cta">
+            <a href="#portfolio">View My Work</a>
+        </div>
+    </div>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I'm a Front-End Developer with a passion for creating beautiful and functional websites. I have experience with HTML, CSS, JavaScript, and React. I strive to ensure a seamless user experience across all devices.</p>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio">
+        <h2>Portfolio</h2>
+        <div class="project-card">
+            <h3>Project 1: Portfolio Website</h3>
+            <p>A personal portfolio website showcasing my work and skills(A Webpage).</p>
+            <a href="https://favotite.github.io/my-movie-website/">View Project </a>
+                <h3>Project 2: Portfolio Website</h3>
+            <p>A personal portfolio website showcasing my work and skills(A Website).</p>
+                <a href="https://favotite.github.io/travel-agent/">View Project</a>
+                <h3>Project 3: Portfolio Website</h3>
+                <p>A personal portfolio website showcasing my work and skills(A Grid).</p>
+                <a href="https://favotite.github.io/grid/">View my Project</a>
+                <h3>Project 4: Portfolio Website</h3>
+                <p>A personal portfolio website showcasing my work and skills(A Registration Form).</p>
+                <a href="https://github.com/Favotite/registration-/actions/runs/14337884553/job/40189593539">View my Project</a>
+                <h3>Project 5: Portfolio Website</h3>
+                <p>A personal portfolio website showcasing my work and skills(A Registration Form).</p>
+                <a href="https://favotite.github.io/rite/">View my Project</a>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>If you would like to get in touch, feel free to contact me through any of the following:</p>
+        <ul>
+            <li><strong>Email:</strong> <a href="mailto:abiolafavour2018@gmail.com">abiolafavour2018@gmail.com</a></li>
+            <li><strong>WhatsApp:</strong> <a href="https://wa.me/08088303359" target="_blank">08088303359</a></li>
+            <li><strong>Phone:</strong> <a href="tel:+2348156337222">08156337222</a></li>
+        </ul>
+    </section>
+</body>
+</html>
